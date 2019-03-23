@@ -18,3 +18,37 @@
 #tiut{
     color: aqua;
 }
+
+#lado1{
+    background-color: black;
+
+}
+
+figcaption{
+    
+    text-align: center;
+
+}
+
+.mainp{
+
+    color: aliceblue;
+}
+
+.border-danger {
+    border-color: red!important;
+}
+.nav-item:hover{
+    color: red;
+    transition-duration: 5ms;
+}
+
+.nav-item{
+    transition: 0.5s;
+    color: aliceblue;
+}
+
+.titulos{
+    border-bottom: red solid 2px;
+    padding-bottom: 5px; 
+}

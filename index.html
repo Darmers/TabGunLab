@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" class="h-100">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -11,15 +11,15 @@
     <title>Document</title>
 </head>
 <body class="h-100">
-    <div class="d-flex h-100 d-flex flex-colum justify-content-center ">
+    <div class="d-flex h-100 d-flex flex-colum ">
 
-        <aside class="text-black px-5">
+        <aside class="text-black px-5" id="lado1">
 
             <figure>
                 <img class="mb-3 rounded-circle py-5" src="sergio.jpg" alt="SergioArango">
                 <figcaption class="border-bottom border-danger pb-2">
-                    <p class="h2"> Hola</p>
-                    <p class="h2"> Soy Sergio</p>
+                    <p class="h2 mainp"> Hola</p>
+                    <p class="h2 mainp"> Soy Sergio</p>
                 </figcaption>
             </figure>
             
@@ -35,12 +35,12 @@
         </aside>
 
         
-            <main class="tab-content d-flex flex-column justify-content-center" id="nav-tab-content">
+            <main class="tab-content d-flex flex-column justify-content-center px-5" id="nav-tab-content">
                 <article class="tab-pane fade show active" id="nav-about-tab" role="tabpanel" aria-labelledby="nav-about-me-tab">
-                    <h2>¿Quien soy?</h2>
+                    <h2 class="titulos">¿Quien soy?</h2>
                     <br>
                     <p>
-                    Soy Sergio Arango y voy a contarte sobre mi y de como me fui apasionando por la tecnología  
+                    Soy Sergio Arango y voy a contarte sobre mi y de como me fui apasionando por la tecnología.  
                     </p>
                     <p>
                     Cuando era pequeño siempre fui alguien muy curioso y simpatizante de la investigación, me gustaba averiguar y descubrir como funcionaba el mundo a mi alrededor.
@@ -54,7 +54,7 @@
                     </p>
                 </article>
                 <article class="tab-pane fade" id="nav-estudios-tab" role="tabpanel" aria-labelledby="nav-estudios">
-                    <h2>Estudios</h2>
+                    <h2 class="titulos">Estudios</h2>
                     <br>
                     <p>
                     Estudios primarios y secundarios:
@@ -71,7 +71,7 @@
                     </p>
                 </article>
                 <article class="tab-pane fade" id="nav-like-tab" role="tabpanel" aria-labelledby="nav-like">
-                    <h2>¿Qué me gusta?</h2>
+                    <h2 class="titulos">¿Qué me gusta?</h2>
                     <br>
                     <p>
                         Soy una persona que le atren mucho los videojuegos online de pc especialmente los mobas, sin dejar a un lado los de roles como los MMORPG, respecto a la musica
@@ -94,11 +94,14 @@
                     <iframe width="560" height="315" src="https://www.youtube.com/embed/YlUKcNNmywk" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                 </article>
                 <article class="tab-pane fade" id="nav-contact-tab" role="tabpanel" aria-labelledby="nav-contact">
-                    <h2>Contacto</h2>
+                    <h2 class="titulos">Contacto</h2>
                     <p>
                         Redes sociales:
-
                     </p>
+                    <p>
+                        Me puedes encontrar en las siguientes redes sociales dando clic en cada icono.
+                    </p>
+                    <br>
                     <a href="https://www.facebook.com/sergio.arangojaramillo.19">
                         
                         <i class="fab fa-facebook-square" id="face"></i>
@@ -119,5 +122,6 @@
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>    
+    <script src="scripts.js"></script>
 </body>
 </html>
