@@ -1,0 +1,75 @@
+body
+{
+
+    background-color: black;
+    margin: 0px;
+}
+h1
+{
+    Color: burlywood;
+    text-align: center;
+}
+
+.impar{
+    color: white;
+}
+
+.par{
+    color: tomato;
+}
+
+ul{
+    line-height: 40px;
+    list-style: none;
+    margin: 0px;
+    padding: 0px;
+    display: inline;
+    
+    
+}
+
+li{
+    transition: 0.5s;
+    border-bottom: 5px;
+    
+    
+}
+
+.impar:hover
+{
+    border-bottom: green 3px dashed;
+    display: inline;
+
+}
+
+.par:hover
+{
+    background-color: blueviolet;
+    display: inline;
+
+    
+}
+
+ li:nth-child(2n+10) {
+    color: tomato;
+ }
+ li:nth-child(2n+10):hover {
+   
+    background-color: blueviolet;
+    display: inline;
+
+ }
+
+ li:nth-child(2n+11) {
+    color: white;    
+
+ }
+
+ li:nth-child(2n+11):hover {
+    border-bottom: green 3px dashed; 
+    display: inline;   
+
+ }
+
+ 
+
