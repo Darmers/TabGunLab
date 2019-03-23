@@ -8,7 +8,7 @@
 }
 
 #face{
-    color: blue;
+    color: #0056b3;
 }
 
 #inst{
@@ -17,6 +17,18 @@
 
 #tiut{
     color: aqua;
+}
+
+a:hover #face {
+    color: #385370;
+    
+}
+a:hover #inst {
+    color: #a1a1a1;
+    
+}
+a:hover{
+    text-decoration: none;
 }
 
 #lado1{
